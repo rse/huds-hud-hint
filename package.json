@@ -1,0 +1,31 @@
+{
+    "name":                                "huds-hud-hint",
+    "description":                         "Hint HUD for HUDS",
+    "version":                             "1.0.0",
+    "author": {
+        "name":                            "Dr. Ralf S. Engelschall",
+        "email":                           "rse@engelschall.com",
+        "url":                             "http://engelschall.com"
+    },
+    "license":                             "MIT",
+    "main":                                "package.json",
+    "dependencies": {
+        "vue":                             "2.6.11",
+        "http-vue-loader":                 "1.4.2",
+        "less":                            "3.11.1",
+        "@fortawesome/fontawesome-free":   "5.13.0",
+        "typopro-web":                     "4.2.3",
+        "animejs":                         "3.1.0"
+    },
+    "peerDependencies": {
+        "huds":                            ">=0.9.11"
+    },
+    "devDependencies": {
+        "huds":                            ">=0.9.11"
+    },
+    "scripts": {
+        "huds":                            "huds",
+        "start":                           "huds -a 0.0.0.0 -p 9999 -d hint:.,hint.yaml",
+        "test":                            "node ../huds/src/huds-server.js -a 0.0.0.0 -p 9999 -d hint:.,hint.yaml"
+    }
+}
