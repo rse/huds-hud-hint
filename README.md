@@ -16,6 +16,11 @@ Abstract
 This is a Head-Up-Display (HUD) running under the [Head-Up-Display Server
 (HUDS)](https://github.com/rse/huds) for showing a large hint banner only.
 
+Example
+-------
+
+![screenshot](screenshot.png)
+
 License
 -------
 
