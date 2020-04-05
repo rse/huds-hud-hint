@@ -44,8 +44,8 @@
         flex-direction: row;
         align-items: top;
         background-color: var(--background);
-        padding: 50px 200px 50px 200px;
-        font-size: 20pt;
+        padding: 30px 300px 30px 200px;
+        font-size: 18pt;
         font-family: "TypoPro Fira Sans";
         .icon {
             perspective: 200px;
@@ -64,6 +64,9 @@
                 border-radius: 4px;
                 padding: 0 5px 0 5px;
             }
+            .accent {
+                color: var(--accentcolor);
+            }
         }
     }
 }
@@ -73,12 +76,13 @@
 module.exports = {
     name: "hint",
     props: {
-        opacity:    { type: Number, default: 1.0 },
-        background: { type: String, default: "" },
-        iconname:   { type: String, default: "" },
-        iconcolor:  { type: String, default: "" },
-        hintcolor:  { type: String, default: "" },
-        hinttext:   { type: String, default: "" }
+        opacity:     { type: Number, default: 1.0 },
+        background:  { type: String, default: "" },
+        iconname:    { type: String, default: "" },
+        iconcolor:   { type: String, default: "" },
+        hintcolor:   { type: String, default: "" },
+        hinttext:    { type: String, default: "" },
+        accentcolor: { type: String, default: "" }
     },
     computed: {
         style: HUDS.vueprop2cssvar()
@@ -91,7 +95,7 @@ module.exports = {
                 easing:   "easeInOutQuad",
                 rotateY:  [ 0, 360 ],
             })
-        }, 4000)
+        }, 6000)
     }
 }
 </script>

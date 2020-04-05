@@ -27,32 +27,46 @@ hint:
     background:         "#000000"
     iconcolor:          "#ff3333"
     iconname:           exclamation-circle
+    accentcolor:        "#ff6666"
     hintcolor:          "#ffffff"
     hinttext: |
-        <b>ATTENTION</b>: This training is live-streamed with high-quality video and audio over RTMP.
-        What you are currently seeing is just the low-quality live-preview in your <i>Zoom</i> or <i>Teams</i> client.<br/>
+        <b>ATTENTION</b>: This training is live-streamed with
+        unidirectional <i>high-quality</i> video and audio over the
+        CIT network via RTMP. What you are currently on is just the
+        companion bidirectional <i>low-quality</i> channel of your
+        <i>Microsoft Teams</i> client.
         <p/>
-        Please install the free <i>VLC Media Player</i> from <b>https://www.videolan.org/vlc/</b>
-        and use its "<i>Media &rarr; Open Network Stream</i>" or <kbd>CTRL-N</kbd>
-        to open the high-quality live-stream from one of the following URLs:
+        Please stay here for the companion audio conference,
+        but install the free <i>VLC Media Player</i> from
+        <b>https://www.videolan.org/vlc/</b> and use its "<i>Media
+        &rarr; Open Network Stream</i>" or <kbd>CTRL-N</kbd> to also
+        open the high-quality live-stream for the trainer from one of
+        the following URLs while you are connected to the CIT network
+        (either locally or remotely via VPN):
         <p/>
         <blockquote>
             <table>
-                <tr><td><b>rtmp://proxy.xt.msg.team/stream/engelschall</b></td><td>&nbsp;(1080p: 1920x1080px)</td></tr>
-                <tr><td><b>rtmp://proxy.xt.msg.team/stream/engelschall-720p</b></td><td>&nbsp;(720p: 1280x720px)</td></tr>
-                <tr><td><b>rtmp://proxy.xt.msg.team/stream/engelschall-480p</b></td><td>&nbsp;(480p: 856x480px)</td></tr>
+                <tr><td class="accent"><b>rtmp://proxy.xt.msg.team/stream/engelschall     </b></td><td>&nbsp;&nbsp;(1080p: 1920x1080px)</td></tr>
+                <tr><td class="accent"><b>rtmp://proxy.xt.msg.team/stream/engelschall-720p</b></td><td>&nbsp;&nbsp;(720p: 1280x720px)</td></tr>
+                <tr><td class="accent"><b>rtmp://proxy.xt.msg.team/stream/engelschall-480p</b></td><td>&nbsp;&nbsp;(480p: 856x480px)</td></tr>
             </table>
         </blockquote>
         <p/>
-        <b>HINT:</b> For best quality choose the 1080p stream. In case your network bandwidth
-        is low, step down to either the (still acceptable) 720p stream or even the (noticable
-        worse) 480p stream.
+        <b>HINT:</b> For best quality choose the <b>1080p</b> stream. In
+        case your network bandwidth is very low and you experience frame
+        drops, step down to either the (still acceptable) <b>720p</b>
+        stream or even the (noticable worse) <b>480p</b> stream.
         <p/>
-        <b>NOTICE:</b> the trainer will exclusively speak over the
-        undirectional high-quality live-stream channel, but you should
+        <b>NOTICE:</b> the trainer will <i>exclusively</i> speak over
+        the undirectional high-quality live-stream, but you should
         stay here in parallel to speak to him and the other attendees
-        through this bidirectional low-quality live-stream channel. Keep
-        in mind that the high-quality live-stream has a usual latency
-        between 3-4 seconds, so, when you speak to the trainer, please
-        be patient.
+        through this companion audio conference. Keep in mind that
+        the high-quality live-stream has a usual latency between 3-4
+        seconds, so expect a noticable delay in the trainers response.
+        <p/>
+        <b>NOTICE:</b> the high-quality live-stream and the companion
+        audio-conference of this training is live-mixed and recorded
+        by the trainer to provide recap material to all attendees
+        afterwards. If you do not want to be recorded, please just
+        listen and do not speak on the audio conference.
 

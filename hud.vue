@@ -33,6 +33,7 @@
             v-bind:iconcolor="config.hint.iconcolor"
             v-bind:hintcolor="config.hint.hintcolor"
             v-bind:hinttext="config.hint.hinttext"
+            v-bind:accentcolor="config.hint.accentcolor"
         ></hint>
     </div>
 </template>
