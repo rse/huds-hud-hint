@@ -18,10 +18,10 @@
         "animejs":                         "3.1.0"
     },
     "peerDependencies": {
-        "huds":                            ">=0.9.11"
+        "huds":                            ">=1.1.0"
     },
     "devDependencies": {
-        "huds":                            ">=0.9.11"
+        "huds":                            ">=1.1.0"
     },
     "scripts": {
         "huds":                            "huds",
