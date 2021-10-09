@@ -68,7 +68,7 @@ module.exports = {
         }
     },
     components: {
-        "hint": "url:hud-widget-hint.vue"
+        "hint": Vue.loadComponent("hud-widget-hint.vue")
     }
 }
 </script>
